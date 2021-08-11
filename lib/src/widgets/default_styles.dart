@@ -150,7 +150,7 @@ class DefaultStyles {
         underline: const TextStyle(decoration: TextDecoration.underline),
         strikeThrough: const TextStyle(decoration: TextDecoration.lineThrough),
         link: TextStyle(
-          color: themeData.accentColor,
+          color: themeData.splashColor,
           decoration: TextDecoration.underline,
         ),
         placeHolder: DefaultTextBlockStyle(
