@@ -30,7 +30,7 @@ class InsertEmbedButton extends StatelessWidget {
         size: iconSize,
         color: Theme.of(context).iconTheme.color,
       ),
-      fillColor: fillColor ?? Theme.of(context).canvasColor,
+      fillColor: fillColor ?? Theme.of(context).primaryColorLight,
       onPressed: () {
         final index = controller.selection.baseOffset;
         final length = controller.selection.extentOffset - index;

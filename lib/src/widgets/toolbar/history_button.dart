@@ -30,7 +30,7 @@ class _HistoryButtonState extends State<HistoryButton> {
     theme = Theme.of(context);
     _setIconColor();
 
-    final fillColor = theme.canvasColor;
+    final fillColor = theme.primaryColorLight;
     widget.controller.changes.listen((event) async {
       _setIconColor();
     });

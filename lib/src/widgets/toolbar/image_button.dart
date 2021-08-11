@@ -49,7 +49,7 @@ class ImageButton extends StatelessWidget {
       highlightElevation: 0,
       hoverElevation: 0,
       size: iconSize * 1.77,
-      fillColor: fillColor ?? theme.canvasColor,
+      fillColor: fillColor ?? theme.primaryColorLight,
       onPressed: () => _handleImageButtonTap(context, filePickImpl),
     );
   }

@@ -61,7 +61,7 @@ class _LinkStyleButtonState extends State<LinkStyleButton> {
         size: widget.iconSize,
         color: isEnabled ? theme.iconTheme.color : theme.disabledColor,
       ),
-      fillColor: Theme.of(context).canvasColor,
+      fillColor: Theme.of(context).primaryColorLight,
       onPressed: pressedHandler,
     );
   }

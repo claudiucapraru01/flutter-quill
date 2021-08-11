@@ -78,7 +78,7 @@ class _SelectHeaderStyleButtonState extends State<SelectHeaderStyleButton> {
                   borderRadius: BorderRadius.circular(2)),
               fillColor: _valueToText[_value] == _valueString[index]
                   ? theme.toggleableActiveColor
-                  : theme.canvasColor,
+                  : theme.primaryColorLight,
               onPressed: () =>
                   widget.controller.formatSelection(_valueAttribute[index]),
               child: Text(

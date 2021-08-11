@@ -25,7 +25,7 @@ class _ClearFormatButtonState extends State<ClearFormatButton> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final iconColor = theme.iconTheme.color;
-    final fillColor = theme.canvasColor;
+    final fillColor = theme.primaryColorLight;
     return QuillIconButton(
         highlightElevation: 0,
         hoverElevation: 0,

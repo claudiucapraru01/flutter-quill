@@ -127,7 +127,7 @@ Widget defaultToggleStyleButtonBuilder(
       : theme.disabledColor;
   final fill = isToggled == true
       ? theme.toggleableActiveColor
-      : fillColor ?? theme.canvasColor;
+      : fillColor ?? theme.primaryColorLight;
   return QuillIconButton(
     highlightElevation: 0,
     hoverElevation: 0,

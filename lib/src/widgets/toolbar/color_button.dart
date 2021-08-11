@@ -107,11 +107,11 @@ class _ColorButtonState extends State<ColorButton> {
 
     final fillColor = _isToggledColor && !widget.background && _isWhite
         ? stringToColor('#ffffff')
-        : theme.canvasColor;
+        : theme.primaryColorLight;
     final fillColorBackground =
         _isToggledBackground && widget.background && _isWhitebackground
             ? stringToColor('#ffffff')
-            : theme.canvasColor;
+            : theme.primaryColorLight;
 
     return QuillIconButton(
       highlightElevation: 0,
